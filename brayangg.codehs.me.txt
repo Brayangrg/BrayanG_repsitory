@@ -1,0 +1,137 @@
+adventurestory.html:
+-------------------
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PC Vs. Consoles</title>
+  </head>
+  <body>
+    <h1>PC Vs. Console </h1>
+    <a href="choice1.html">Pc</a>
+    Vs.
+    <a href="choice2.html">Console</a>
+    
+    <hr>
+    
+    <a href="index.html">Back to Homepage</a>
+  </body>
+</html>
+
+choice1.html:
+------------
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Why PC is better!</title>
+  </head>
+  <body>
+    <h1>PC is better because,</h1>
+    <h5>1.They have better graphics then consoles</h5>
+    <h5>2.They are more powerful</h5>
+    <h5>3.You can always upgrade your pc when you have money </h5>
+    <h5>4.Pc can be used for more then just gaming</h5>
+    <h5>5.They are easier to repair and install new stuff</h5>
+    <a href="adventurestory.html">Back Home</a>
+  </body>
+</html>
+
+choice2.html:
+------------
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Why Console Is better</title>
+  </head>
+  <body>
+    <h1>Console is better because,</h1>
+    <h5>1. They are more portable</h5>
+    <h5>2. They are Cheaper</h5>
+    <h5>3. Less of a skill gap</h5>
+    <h5>4. Easier setup and easier to download games</h5>
+    <h5>
+      5. Less lag on consoles</h5>
+    <a href="adventurestory.html">Back Home</a>
+  </body>
+</html>
+
+index.html:
+----------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brayan Grimaldo's- Personal Homepage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #007BFF;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+
+        h1 {
+            font-size: 2em;
+        }
+
+        .bio {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="profile-image.jpg" alt="Brayan Grimaldo">
+        <h1>Brayan Grimaldo</h1>
+    </header>
+    <div class="bio">
+        <p>Hello, I'm Brayan Grimaldo! Here are a few things about me:</p>
+        <p>I'm 14 and a 9th grader at Parkview Highschool,I'd like to learn more about technology so in the future I can get a job that involes technolgy as to me that seems like thats all the future will be about.But enough of that here is 5 things I like to do, I like to go to the gym,play video games,hang out with friends,spend time with family, and build stuff. </h6>
+        
+        <p>Here are 3 things I'd like to learn this web desgin course!</p>
+        <ul>
+            <li>I would like to learn how to create games</li>
+            <li>How to make more in depth websites </li>
+            <li>How to apply theses skills to actual jods</li>
+        </ul>
+        <p>Check out some of my projects:</p>
+        <ul>
+            <li><a href="adventurestory.html">Adventurestory webpage</a></li>
+            
+        </ul>
+    </div>
+    <!-- Add more content here as you like -->
+</body>
+</html>
+
